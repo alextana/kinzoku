@@ -10,6 +10,8 @@
 	});
 </script>
 
+<svelte:head><title>Kinzoku - Homepage</title></svelte:head>
+
 {#if showLogo}
 	<div transition:fly={{ y: 200, duration: 500 }} class="flex content mx-auto">
 		<iframe

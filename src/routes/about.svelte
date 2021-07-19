@@ -7,6 +7,8 @@
 	});
 </script>
 
+<svelte:head><title>About - Kinzoku</title></svelte:head>
+
 {#if showAbout}
 	<div class="container w-2/4 mx-auto">
 		<h1 class="font-extrabold text-4xl">About</h1>

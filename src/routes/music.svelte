@@ -8,6 +8,8 @@
 	});
 </script>
 
+<svelte:head><title>Music - Kinzoku</title></svelte:head>
+
 {#if showIframe}
 	<div in:fade={{ duration: 500 }} class="content">
 		<div class="heading-title mx-auto text-center">
